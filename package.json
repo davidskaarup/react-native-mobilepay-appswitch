@@ -1,0 +1,16 @@
+{
+  "name": "react-native-mobilepay-appswitch",
+  "version": "1.0.0",
+  "description": "A React Native module for Danske Bank's MobilePay AppSwitch.",
+  "main": "index.js",
+  "author": {
+    "name": "David Skaarup",
+    "email": "david@skaarup.me",
+    "url": "https://github.com/davidskaarup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidskaarup/react-native-mobilepay-appswitch.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30060DC41E7ED78D00072321 /* libMobilePayManager1.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */; };
+		3052BD2B1E780361005A92AC /* RNMobilePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3052BD2A1E780361005A92AC /* RNMobilePay.m */; };
+		3052BD2F1E780716005A92AC /* RNMobilePay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3052BD2E1E780674005A92AC /* RNMobilePay.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3052BCD21E774337005A92AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3052BD2F1E780716005A92AC /* RNMobilePay.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.0.a; path = MobilePayManager/libMobilePayManager1.8.0.a; sourceTree = "<group>"; };
+		30060DC01E7ED78D00072321 /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayCancelledPayment.h; path = MobilePayManager/MobilePayCancelledPayment.h; sourceTree = "<group>"; };
+		30060DC11E7ED78D00072321 /* MobilePayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayManager.h; path = MobilePayManager/MobilePayManager.h; sourceTree = "<group>"; };
+		30060DC21E7ED78D00072321 /* MobilePayPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayPayment.h; path = MobilePayManager/MobilePayPayment.h; sourceTree = "<group>"; };
+		30060DC31E7ED78D00072321 /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePaySuccessfulPayment.h; path = MobilePayManager/MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
+		3052BCD41E774337005A92AC /* libRNMobilePay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMobilePay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3052BD2A1E780361005A92AC /* RNMobilePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMobilePay.m; sourceTree = "<group>"; };
+		3052BD2E1E780674005A92AC /* RNMobilePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMobilePay.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3052BCD11E774337005A92AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30060DC41E7ED78D00072321 /* libMobilePayManager1.8.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30060DBE1E7ED77D00072321 /* MobilePayManager */ = {
+			isa = PBXGroup;
+			children = (
+				30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */,
+				30060DC01E7ED78D00072321 /* MobilePayCancelledPayment.h */,
+				30060DC11E7ED78D00072321 /* MobilePayManager.h */,
+				30060DC21E7ED78D00072321 /* MobilePayPayment.h */,
+				30060DC31E7ED78D00072321 /* MobilePaySuccessfulPayment.h */,
+			);
+			name = MobilePayManager;
+			sourceTree = "<group>";
+		};
+		3052BCCB1E774337005A92AC = {
+			isa = PBXGroup;
+			children = (
+				30060DBE1E7ED77D00072321 /* MobilePayManager */,
+				3052BCD61E774337005A92AC /* RNMobilePay */,
+				3052BCD51E774337005A92AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3052BCD51E774337005A92AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3052BCD41E774337005A92AC /* libRNMobilePay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3052BCD61E774337005A92AC /* RNMobilePay */ = {
+			isa = PBXGroup;
+			children = (
+				3052BD2A1E780361005A92AC /* RNMobilePay.m */,
+				3052BD2E1E780674005A92AC /* RNMobilePay.h */,
+			);
+			path = RNMobilePay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3052BCD31E774337005A92AC /* RNMobilePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3052BCDD1E774337005A92AC /* Build configuration list for PBXNativeTarget "RNMobilePay" */;
+			buildPhases = (
+				3052BCD01E774337005A92AC /* Sources */,
+				3052BCD11E774337005A92AC /* Frameworks */,
+				3052BCD21E774337005A92AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMobilePay;
+			productName = RNMobilePay;
+			productReference = 3052BCD41E774337005A92AC /* libRNMobilePay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3052BCCC1E774337005A92AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					3052BCD31E774337005A92AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3052BCCF1E774337005A92AC /* Build configuration list for PBXProject "RNMobilePay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3052BCCB1E774337005A92AC;
+			productRefGroup = 3052BCD51E774337005A92AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3052BCD31E774337005A92AC /* RNMobilePay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3052BCD01E774337005A92AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3052BD2B1E780361005A92AC /* RNMobilePay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3052BCDB1E774337005A92AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3052BCDC1E774337005A92AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3052BCDE1E774337005A92AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNMobilePay",
+					"$(PROJECT_DIR)/MobilePayManager",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3052BCDF1E774337005A92AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNMobilePay",
+					"$(PROJECT_DIR)/MobilePayManager",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3052BCCF1E774337005A92AC /* Build configuration list for PBXProject "RNMobilePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3052BCDB1E774337005A92AC /* Debug */,
+				3052BCDC1E774337005A92AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3052BCDD1E774337005A92AC /* Build configuration list for PBXNativeTarget "RNMobilePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3052BCDE1E774337005A92AC /* Debug */,
+				3052BCDF1E774337005A92AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3052BCCC1E774337005A92AC /* Project object */;
+}

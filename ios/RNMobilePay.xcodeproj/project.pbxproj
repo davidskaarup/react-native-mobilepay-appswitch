@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30060DC41E7ED78D00072321 /* libMobilePayManager1.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */; };
+		302C69E41EEB583B0016ED0E /* libMobilePayManager1.8.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 302C69E31EEB583B0016ED0E /* libMobilePayManager1.8.1.a */; };
 		3052BD2B1E780361005A92AC /* RNMobilePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3052BD2A1E780361005A92AC /* RNMobilePay.m */; };
 		3052BD2F1E780716005A92AC /* RNMobilePay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3052BD2E1E780674005A92AC /* RNMobilePay.h */; };
 /* End PBXBuildFile section */
@@ -26,11 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.0.a; path = MobilePayManager/libMobilePayManager1.8.0.a; sourceTree = "<group>"; };
 		30060DC01E7ED78D00072321 /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayCancelledPayment.h; path = MobilePayManager/MobilePayCancelledPayment.h; sourceTree = "<group>"; };
 		30060DC11E7ED78D00072321 /* MobilePayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayManager.h; path = MobilePayManager/MobilePayManager.h; sourceTree = "<group>"; };
 		30060DC21E7ED78D00072321 /* MobilePayPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePayPayment.h; path = MobilePayManager/MobilePayPayment.h; sourceTree = "<group>"; };
 		30060DC31E7ED78D00072321 /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePaySuccessfulPayment.h; path = MobilePayManager/MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
+		302C69E31EEB583B0016ED0E /* libMobilePayManager1.8.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.1.a; path = MobilePayManager/libMobilePayManager1.8.1.a; sourceTree = "<group>"; };
 		3052BCD41E774337005A92AC /* libRNMobilePay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMobilePay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3052BD2A1E780361005A92AC /* RNMobilePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMobilePay.m; sourceTree = "<group>"; };
 		3052BD2E1E780674005A92AC /* RNMobilePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMobilePay.h; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30060DC41E7ED78D00072321 /* libMobilePayManager1.8.0.a in Frameworks */,
+				302C69E41EEB583B0016ED0E /* libMobilePayManager1.8.1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +51,7 @@
 		30060DBE1E7ED77D00072321 /* MobilePayManager */ = {
 			isa = PBXGroup;
 			children = (
-				30060DBF1E7ED78D00072321 /* libMobilePayManager1.8.0.a */,
+				302C69E31EEB583B0016ED0E /* libMobilePayManager1.8.1.a */,
 				30060DC01E7ED78D00072321 /* MobilePayCancelledPayment.h */,
 				30060DC11E7ED78D00072321 /* MobilePayManager.h */,
 				30060DC21E7ED78D00072321 /* MobilePayPayment.h */,

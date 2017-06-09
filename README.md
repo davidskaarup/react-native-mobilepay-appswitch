@@ -77,7 +77,7 @@ You must configure MobilePay before you call other methods. The `configure` meth
 | `urlScheme` | `String` | iOS only | None | The URL scheme of your app.
 | `country` | `MobilePay.Country` | No | `MobilePay.Country.Denmark` | MobilePay is currently only supported in Denmark, Norway and Finland.
 | `captureType` | `MobilePay.CaptureType` | No | `MobilePay.CaptureType.Capture` | Read more about payment types [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK/wiki/Payment-types).
-| `timeoutSeconds` | `Number` | | No | `0` (Never timeout) | A time limit you set for which the user must have swiped in MobilePay to confirm the purchase.
+| `timeoutSeconds` | `Number` | No | `0` (Never timeout) | A time limit you set for which the user must have swiped in MobilePay to confirm the purchase.
 
 __Example__
 

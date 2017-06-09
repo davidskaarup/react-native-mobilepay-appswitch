@@ -71,12 +71,12 @@ import MobilePay from 'react-native-mobilepay-appswitch'
 
 You must configure MobilePay before you call other methods. The `configure` method takes an `options` object with the following properties:
 
-| Property | Type | Valid values | Required | Default value | Description |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| `merchantId` | `String` | | Yes | None | Your MobilePay MerchantID. You can get IDs for testing [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK#merchantid-for-test-purposes).
-| `urlScheme` | `String` | | iOS only | None | The URL scheme of your app.
-| `country` | `MobilePay.Country` | `MobilePay.Country.Denmark` (or `0`) `MobilePay.Country.Norway` (or `1`) `MobilePay.Country.Finland` (or `2`) | No | `MobilePay.Country.Denmark` | MobilePay is currently only supported in Denmark, Norway and Finland.
-| `captureType` | `MobilePay.CaptureType` | `MobilePay.CaptureType.Capture` (or `0`) `MobilePay.CaptureType.Reserve` (or `1`) `MobilePay.CaptureType.PartialCapture` (or `2`) | No | `MobilePay.CaptureType.Capture` | Read more about payment types [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK/wiki/Payment-types).
+| Property | Type | Required | Default value | Description |
+| ------ | ------ | ------ | ------ | ------ |
+| `merchantId` | `String` | Yes | None | Your MobilePay MerchantID. You can get IDs for testing [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK#merchantid-for-test-purposes).
+| `urlScheme` | `String` | iOS only | None | The URL scheme of your app.
+| `country` | `MobilePay.Country` | No | `MobilePay.Country.Denmark` | MobilePay is currently only supported in Denmark, Norway and Finland.
+| `captureType` | `MobilePay.CaptureType` | No | `MobilePay.CaptureType.Capture` | Read more about payment types [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK/wiki/Payment-types).
 | `timeoutSeconds` | `Number` | | No | `0` (Never timeout) | A time limit you set for which the user must have swiped in MobilePay to confirm the purchase.
 
 __Example__
@@ -88,13 +88,15 @@ MobilePay.configure({
   country: MobilePay.Country.Denmark,
   captureType: MobilePay.CaptureType.Capture,
   timeoutSeconds: 90
-});
+})
 ```
 
 
 ##### `isInstalled(): Promise`
 
 Use this method to determine whether the user has the MobilePay app installed.
+
+__Example__
 
 ```
 MobilePay.isInstalled()
@@ -129,7 +131,17 @@ MobilePay.startPayment('123456', 3.14)
   })
 ```
 
+### Types
 
+##### Country
+* `MobilePay.Country.Denmark` (alternatively `0`)
+* `MobilePay.Country.Norway` (alternatively `1`)
+* `MobilePay.Country.Finland` (alternatively `2`)
+
+##### Capture Type
+* `MobilePay.CaptureType.Capture` (alternatively `0`)
+* `MobilePay.CaptureType.Reserve` (alternatively `1`)
+* `MobilePay.CaptureType.PartialCapture` (alternatively `2`)
 
 
 

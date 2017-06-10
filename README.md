@@ -143,7 +143,7 @@ MobilePay.startPayment('123456', 3.14)
 * `MobilePay.CaptureType.Reserve` (alternatively `1`)
 * `MobilePay.CaptureType.PartialCapture` (alternatively `2`)
 
-### License
+## License
 
 The MobilePay AppSwitch SDK is developed and maintained by MobilePay. See the license [here](https://github.com/MobilePayDev/MobilePay-AppSwitch-SDK/blob/master/LICENSE). 
 
